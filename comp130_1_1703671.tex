@@ -23,23 +23,12 @@
 \maketitle
 
 \section{Introduction}
-This journal will look at vulnerabilities in games which are exploited or introduced by third party content. The journal will look at sevral games \cite{GMOD, CSGODATE, GTASA}  to compare their vulnerabilities and identify if their vulnerabilities are unique, how they affect players and what steps can be taken to reduce the likelihood of introducing them in future games.
+\cite{WinNT}
 
-\section{Garry's Mod}
-Garry's Mod came out in 2006 \cite{GMOD} and at the time of writing is the 18th most played game on Steam \cite{STEAMSTATS}. This game is a sandbox with a big emphasis on community created mods to add content and meaning to the game, to create your own personalised gaming experience. Unfortunately, this freedom introduces lots of vulnerabilities which are easy to exploit thanks to runtime Lua execution. Which the game even allows the client to do at will with lua_openscript_cl and lua_run_cl \cite{GMODSCRIPTS} in console when the server has the sv_allowcslua boolean set to true, or if the client has bypassed sv_allowcslua which can be as simple as editing a memory address to true.
-
-The above only matters for multiplayer and custom single player maps/gamemodes which has lead to the creation of third party anti-cheats \cite{CAKE, QUACK}.
-
-\section{Counter-Strike: Global Offensive}
-Counter Strike: Global Offensive came out in 2012 \cite{CSGODATE} and at the time of writing is the third most played game on Steam \cite{STEAMSTATS}. However, even with such a big game, serious vulnerabilities are still found. The most recent being the ability to hide or reduce particle effects such as smoke and fire which can give players a huge advantage in such a competitive FPS. Additionally, players can stumble upon this by accident as the cause is from third party servers running gamemodes such as Zombies which use a lot of effects so need to reduce the quality of particle effects in order to maintain frame rate. These effects then stay with the client even during competitive ranked play after leaving the community server and joining official servers, until the game is restarted. \cite{CSGO}. The client might not even notice so could potentially get banned from the game by Overwatch \cite{CSGODATE} if they are seen shooting through smoke.
-
-\section{Grand Theft Auto: San Andreas}
-Grand Theft Auto: San Andreas came out in 2005 \cite{GTASA} and at the time of writing is not in the top 100 most played games on Steam \cite{STEAMSTATS}.
 
 \section{Conclusion}
 
 \abstract{}
-\cite{PMT}
 
 \bibliographystyle{ieeetran}
 \bibliography{references}
