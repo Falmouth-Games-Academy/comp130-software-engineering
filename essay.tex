@@ -27,6 +27,13 @@
 At its core, continuous integration is an Extreme Programming concept where developers commit their code to the repository multiple times a day where it is automatically built and tested. \cite{leppanen2015highways} Although the frequency of builds can vary, in an ideal situation, the code will be built whenever a commit is made. This helps to ensure that new code can be integrated successfully.
 
 
+\section{The Nature of RPG's}
+
+The term RPG - or Role Playing Game - refers to a broad range of games that are difficult to define due to the open-endedness of the term and the genre overlap that is common in video games. However, traditional RPG's often include key elements such as a structured storyline and rules to restrict the player to that plot. \cite{rpgDef} Mechanically, a leveling system, inventory and the use of quests to drive the game are also common.
+
+Most relevant to this paper is the observation that RPG's tend to emphasise depth, and as such, combine many different systems within the game as a whole. For example, combat mechanics, xp and level-up systems, a world map, inventory and quest system may all be required for a relatively simple RPG. This breadth of content can make continuous integration especially relevant to the genre, as it is imperative that the game systems are compatible.
+
+
 \section{Benefits of Continuous Integration}
 
 One of the largest benefits of continuous integration is its ability to reduce merge errors when integrating code into the repository. If developers wait a long time before making committing code, resulting issues can be complex and hard to solve, often wasting valuable development time while they are fixed. Many small commits each day reduces the likelihood of merge errors, but also means that errors that do occur are easy to solve. \cite{bibid}
@@ -34,6 +41,7 @@ One of the largest benefits of continuous integration is its ability to reduce m
 Continuous integration also encourages and enhances communication between developers because of the quantity of commits that are made. More commits means that it is easier to see what changes have been made by other developers and provides the platform to query or make notes on individual changes via commit messages and comments.
 
 Many developers find that the benefits of continuous integration allow them to release more often and have more successful pull requests. Both of these factors help reduce development time and streamline the project lifecycle. \cite{hilton2016usage}
+
 
 \section{Disadvantages of Continuous Integration}
 
@@ -48,21 +56,23 @@ The applicability of continuous integration changes somewhat in regards to the g
 
 On the other hand, games can quickly become very large as they usually include assets such as 3D models, shaders and textures. This can make automated builds very slow which could cause delays in the continuous integration system. Possible solutions include only doing a full build of the game when it's necessary - such as once per day - and use a minimal build at other times.
 
-\section{The Nature of RPG's}
+One of the biggest resources that developers must account for when developing a game is time. Deadlines are often tight and many studios use a "crunch" period to catch up and finish work at a very late stage. 
 
-The term RPG - or Role Playing Game - refers to a broad range of games that are difficult to define due to the open-endedness of the term and the genre overlap that is common in video games. However, traditional RPG's often include key elements such as a structured storyline and rules to restrict the player to that plot. \cite{rpgDef} Mechanically, a leveling system, inventory and the use of quests to drive the game are also common.
 
-Most relevant to this paper is the observation that RPG's tend to emphasise depth, and as such, combine many different systems within the game as a whole. For example, combat mechanics, xp and level-up systems, a world map, inventory and quest system may all be required for a relatively simple RPG. This breadth of content can make continuous integration especially relevant to the genre, as it is imperative that the game systems are compatible.
+\section{Applicability to RPG-Style Games}
 
-%%\paragraph{Test Paragraph}\mbox{}\newline
+From a programming point of view, designing an RPG game can be a challenging experience. Regardless of the style of RPG, there will almost certainly be many different aspects that need to be designed to work together. The complexity of the systems involved in a large-scale RPG may neccessitate features being removed, reworked or added at the last minute. These changes can cause delays and complicatoins for developers if the codebase is not well-maintained and planned to allow modification. Although there are many factors involved in making code maintainable and modular, continuous integration encourages the practice of committing small working portions of code, which in turn creates a more readable and maintainable codebase than if very large pieces of code are submitted at long intervals.
 
+Continuous integration also  
+
+The large scope of many RPG's - especially triple-A industry projects - often leads to deadline slippage and harsh crunches to rectify this. 
 
 
 \section{Conclusion}
 
 In conclusion, despite the initial cost - in both time and money - of setting up continuous integration, it has the potential to significantly decrease development time during an RPG project. The ability to identify merge conflicts early on in development is invaluable when working on a large project with many different components that may be worked on by individual teams. Additionally, if dedicated computers are used, the automated build functionality of continuous integration can help speed up the project by removing the need for developers to build huge projects on their local machines, which would take large amounts of valuable time. \cite{gamasutraCIprocess}
 
-Despite this, the setup required may not be worth it for very small teams working on small-scope projects. In these cases, the low number of developers makes communication simpler and reduces the chances of merge conflicts. A small project is also likely to be less complex, which reduces the need to ensure compatibility when new commits are made.
+Despite this, the setup required may not be worth it for very small teams working on small-scope projects. In these cases, the low number of developers makes communication simpler and reduces the chances of merge conflicts. A small project is also likely to be less complex, which reduces the need to ensure compatibility when new commits are made. 
 
 
 
