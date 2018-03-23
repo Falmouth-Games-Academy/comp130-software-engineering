@@ -21,7 +21,6 @@
 
 \paragraph{Abstract}
 
-
 \section{Introduction}
 
 At its core, continuous integration is an Extreme Programming concept where developers commit their code to the repository multiple times a day where it is automatically built and tested. \cite{highwaysCI} \cite{arduinoCI} Although the frequency of builds can vary, in an ideal situation, the code will be built whenever a commit is made. This helps to ensure that new code can be integrated successfully.
@@ -63,13 +62,11 @@ From a programming point of view, designing an RPG game can be a challenging exp
 
 One major cause of deadline issues and the need for crunches is poor communication between managers and developers. If managers do not have a good idea of where the development team is currently, they may assume that everything is on schedule, leading to problems when they discover that features they thought were complete are not implemented. \cite{leanManagement} Continuous integration helps to facilitate this communication due to automated, verified builds. A manager can look at the repository and see that there is a working, successful build and see what has been contributed to it via commit logs.
 
-The large scope of many RPG's - especially triple-A industry projects - often leads to deadline slippage and harsh crunches to rectify this. In this context, continuous integration could be a valuable tool to help streamline development. However, RPG's are also a popular choice for indie studios, where teams may by very small. In this environment, the initial cost of setting up continuous integration as well as the time period where developers are still getting used to the new system may be perceived as outweighing the benefits.
+The large scope of many RPG's - especially triple-A industry projects - often leads to deadline slippage and harsh crunches to rectify this. In this context, continuous integration could be a valuable tool to help streamline development. However, RPG's are also a popular choice for indie studios, where teams may by very small. In this environment, the initial cost of setting up continuous integration as well as the time period where developers are still getting used to the new system may be perceived as outweighing the benefits as it can be difficult to change the established practices and developer processes that are already in place. \cite{systematicReview} Dismantling an existing developer workflow in order to facilitate a new continuous integration oriented one could disrupt production at a critical time, although this could also by avoided by adopting continuous integration between projects, or very early on in development.
 
+Despite this, continuous integration can benefit small studios, as having strict integration tests and automatic builds in place allows new developers to quickly begin adding code to the project without worrying about breaking the build. \cite{stateOfTheArt} This can aid indie studios by enabling them to expand their teams during a project, if and when they need more developers. This freedom could reduce development time, as the number of programmers can be changed to match new requirements for the project. Similarly, this can also enable much larger studios, who already have very big development teams, to easily reorganise departments or create new teams.
 
-Another concern with using continuous integration is that the automatically verified build can ironically lead to lowered standards for code contributions. This is due to developers simply needing to make sure their code passes the integration tests when they commit it. \cite{sharedUnderstanding} This can be harmful to development as the quality of the code may decrease as developers do not feel the need to run further tests on their code or make sure that it conforms to good standards.
-
-%% processes and practices not ready to support the nature of CI \cite{systematicReview}
-%% bringing new developers on board/outsourcing - \cite{stateOfTheArt}
+One the other hand, another concern with using continuous integration is that the automatically verified build can ironically lead to lowered standards for code contributions. This is due to developers simply needing to make sure their code passes the integration tests when they commit it. \cite{sharedUnderstanding} This can be harmful to development as the quality of the code may decrease as developers do not feel the need to run further tests on their code or make sure that it conforms to good standards. In a complex RPG with many dependencies between features, poor quality in any code can be extremely detrimental later on in development and could cause delays.
 
 \section{Conclusion}
 
