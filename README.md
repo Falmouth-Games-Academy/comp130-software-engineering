@@ -1,8 +1,8 @@
 # comp130-software-engineering
 
-###What is considered best practices when designing an audio system for video games?
+### What is considered best practices when designing an audio system for video games?
 or
-###Empirical approaches when designing an audio system for video games.
+### Empirical approaches when designing an audio system for video games.
 
 In video games audio plays an important role in communicating the atmosphere, emotion and mood of a practical environment, 
 scene or situation [1].  Audio can be used to emphasise the players situation make actions more believable and help immerse
