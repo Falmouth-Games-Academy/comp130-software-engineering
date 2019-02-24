@@ -6,11 +6,11 @@ or
 
 In video games audio plays an important role in communicating the atmosphere, emotion and mood of a practical environment, 
 scene or situation [1].  Audio can be used to emphasise the players situation make actions more believable and help immerse
-the player into game world. It can also be used to give the player instance feedback without drawing the users attention away
-from the main gameplay for instance it can alert the player that there are in trouble or if they have missed an opportunity.
+the player into game world. It can also be used to give the player instant feedback without drawing the users attention away
+from the main gameplay for instance it can alert the player that they are in trouble or if they have missed an opportunity.
 On the other hand, it can let the player know they have levelled up, reached a particular goal, combo or streak.
    
-Audio can make or break a game, no matter how good the machinic or gameplay is, when audio is applied badly it can ruin
+Audio can make or break a game, no matter how good the mechinic or gameplay is, when audio is applied badly it can ruin
 a game causing bad reviews and sales to flop on the other hand when audio is applied well it can solely be responsible
 for the success of the title. 
 
