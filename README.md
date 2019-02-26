@@ -1,1 +1,3 @@
 # comp130-software-engineering
+I wish to look into problems revolving around scope and scheduling within the games industry, specifically around deadlines and how much work one thinks can be done, against how much can actually be done in any given time frame. From what I have seen so far, it is very easy to over scope a project and struggle with scheduling, and as such make cuts in order to make deadlines. With more knowledge and experience, or perhaps simply different cicumstances, I believe there can be substantially less issues revolving around deadlines. 
+I plan to look into this deeper by reading research papers on this and similar topics, as well as reflecting own experience, limited as they may be. 
